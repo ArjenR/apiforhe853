@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  he853api:
+    build: he853api
+    container_name: he853api
+    privileged: true
+    volumes:
+    - /dev:/dev
+    environment:
+    - TIMEZONE=Europe/Amsterdam
+    restart: always

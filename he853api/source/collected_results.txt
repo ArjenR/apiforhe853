@@ -1,0 +1,8 @@
+
+{"verbose_result":"HE853 USB device (04d9:01357 Holtek Semiconductor, Inc.) not found\n"}
+
+OK results: 
+{"verbose_result":"HE853 USB device (04d9:01357 Holtek Semiconductor, Inc.) is ready and accessible\n"}
+{"verbose_result":"Sending command[1] to deviceId[1001] with protocol AnBan\n"}
+{"verbose_result":"Sending command[1] to deviceId[1001] with ALL protocols\n"}
+

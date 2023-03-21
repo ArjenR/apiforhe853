@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+  he853api:
+    build: he853api
+    container_name: he853api_development
+    privileged: true
+    volumes:
+    - ./he853api/source:/workspace:cached
+    - /dev:/dev
+    environment:
+    - TIMEZONE=Europe/Amsterdam
+    #- STAGE=PRODUCTION
+    # networks:
+    #   - default
+    # restart: always
+    # Overrides default command so things don't shut down after the process ends.
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
+# networks:
+#   default:
