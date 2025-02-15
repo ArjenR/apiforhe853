@@ -14,7 +14,7 @@ Example: ```http://he853api:8000/switch?address=1001&action=on```
 
 ## 'Works for me', so use at your own risk.
 
-I do some parameter evalution to make sure the api is safe to use. It does do a call to an external application so access to the underlying operationg system is possible in theory. AND THERE IS NO AUTHENTICATION AT ALL!! That is why it is best to run it isolated in a docker container together with node-red or other. 
+I do some parameter evaluation to make sure the api is safe to use. It does do a call to an external application so access to the underlying operationg system is possible in theory. AND THERE IS NO AUTHENTICATION AT ALL!! That is why it is best to run it isolated in a docker container together with node-red or other. 
 
 See the docker-compose.yml
 
